@@ -1,7 +1,7 @@
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    BOT_TOKEN: str = "8184110295:AAFo6DkbMkCVlYG1kZMQNHR3zXpzB2WJYec"
+    BOT_TOKEN: str = "TOKEN"
     DB_PATH: str = "bot.db"  # Путь к SQLite файлу
 
     class Config:
