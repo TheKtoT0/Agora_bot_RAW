@@ -7,6 +7,6 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
 
-BOT_TOKEN_NO_NE_KLASS = '8184110295:AAFo6DkbMkCVlYG1kZMQNHR3zXpzB2WJYec'
+BOT_TOKEN_NO_NE_KLASS = 'TOKEN'
 
 settings = Settings()
